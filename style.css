@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 @font-face {
     font-family: 'robotoregular';
     src: url('roboto/roboto-regular-webfont.eot');
@@ -11,7 +13,7 @@
 }
 
 body{
-   font-family: 'robotoregular';
+   font-family: 'robotoregular', 'Roboto', serif;;
 }
 
 table{
