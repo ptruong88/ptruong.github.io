@@ -1,0 +1,61 @@
+<html>
+<head>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","resume.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML;
+
+var object=xmlDoc.getElementsByTagName("OBJECT");
+
+for(i=0; i<object.length;i++){
+   document.write("<h4 class='object'>");
+   document.write(object[i].getElementsByTagName("OBJNAME")[0].childNodes[0].nodeValue);
+   document.write("</h4>");
+
+   var list = object[i].getElementsByTagName("LIST");
+
+   for (j=0;j<list.length;j++){
+     document.write("<table><tr><td class='bold'>");
+     document.write(list[j].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue);
+     document.write("</td><td class='right'>");     
+     document.write(list[j].getElementsByTagName("WHERE")[0].childNodes[0].nodeValue);  
+     document.write("</td></tr>");
+     
+     document.write("<tr><td class='bold'>");
+     document.write(list[j].getElementsByTagName("OFFICE")[0].childNodes[0].nodeValue);
+     document.write("</td><td class='right'>");
+     document.write(list[j].getElementsByTagName("WHEN")[0].childNodes[0].nodeValue);
+     document.write("</td></tr>");
+     document.write("</table>");
+     
+     document.write("<u>");
+     document.write(list[j].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue);
+     document.write("</u>");
+
+     document.write("<p></p>");
+    
+     var desc= list[j].getElementsByTagName("DESC");
+     for(n=0; n<desc.length;n++){
+         document.write("<li>");
+         document.write(desc[n].childNodes[0].nodeValue);
+         document.write("</li>");
+     }
+     document.write("<p></p>");
+   }
+}
+</script>
+
+</body>
+</html>
