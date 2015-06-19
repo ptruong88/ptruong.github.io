@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESUME>
+ <PERSON>
+  <NAME>Phuong</NAME>
+
+  <OBJECT>
+   <OBJNAME>EDUCATION</OBJNAME>
+    <LIST>
+     <COMPANY>Westfield State University</COMPANY>
+     <OFFICE> </OFFICE>
+     <WHERE>Westfield, MA</WHERE>
+     <TITLE>Bachelor of Science in Computer Science</TITLE>
+     <WHEN>Anticipated May 2015</WHEN>
+     <DESC>Overall GPA: 3.2/4.0</DESC>
+     <DESC>Dean&apos;s List, 1 semester</DESC>
+    </LIST>
+  </OBJECT>
+
+  <OBJECT>
+   <OBJNAME>EXPERIENCE</OBJNAME>
+   <LIST>
+    <COMPANY>Westfield State University</COMPANY>
+    <OFFICE>The Center for Instructional Technology</OFFICE>
+    <WHERE>Westfield, MA</WHERE>
+    <TITLE>Help Desk and Technical Support on PLATO</TITLE>
+    <WHEN>January, 2014 - Present</WHEN>
+    <DESC>Assistance faculty and students with their classes, whether enhanced face to face, blended and/or online.</DESC>
+    <DESC>Support to all faculty and staff for the purpose of learning, managing and integrating existing and new technologies into their teaching and work.</DESC>
+   </LIST>
+
+   <LIST>
+    <COMPANY>Business Self-Employment</COMPANY>
+    <OFFICE> </OFFICE>
+    <WHERE> </WHERE>
+    <TITLE>Selling used books online</TITLE>
+    <WHEN>January 2012 - Present</WHEN>
+    <DESC>Collect used books information and analyze their market prices</DESC>
+    <DESC>Upload the information to Ebay, Amazon, Half websites and update when they have any change</DESC>
+   </LIST>
+  </OBJECT>
+
+  <OBJECT>
+   <OBJNAME>PROJECT</OBJNAME>
+   <LIST>
+    <COMPANY>Really Long Dungeon (Android RPG game)</COMPANY>
+    <OFFICE> </OFFICE>
+    <WHERE> </WHERE>
+    <TITLE>Main Developer</TITLE>
+    <WHEN>September 2014 - Present</WHEN>
+    <DESC>Design game flows and implement them into the project</DESC>
+    <DESC>Maintain and update new features, fix bugs and respond to consumer feedback</DESC>
+    <DESC>Link: https://play.google.com/store/apps/details?id=com.studio410.longdungeon</DESC>
+   </LIST>
+
+   <LIST>
+    <COMPANY>FunRun2015 (Android Multiplayer Race game)</COMPANY>
+    <OFFICE> </OFFICE>
+    <WHERE> </WHERE>
+    <TITLE>Main Developer</TITLE>
+    <WHEN>April 2015 - Present</WHEN>
+    <DESC>Design game flows and implement them into the project</DESC>
+    <DESC>Maintain and update new features, fix bugs and respond to consumer feedback</DESC>
+    <DESC>Link: On Processing</DESC>
+   </LIST>
+  </OBJECT>
+
+ </PERSON>
+</RESUME>
