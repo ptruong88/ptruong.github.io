@@ -26,8 +26,12 @@ table{
    font-size:16pt;
 }
 
+.left{
+   float: left;
+}
+
 .right{
-   text-align: right;
+   float: right;
 }
 
 .bold{
